@@ -1,0 +1,78 @@
+/********************************TAG Selector ************************/
+
+body {
+  background-color: #d7f7f5;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1, h3 {
+  color: #66BFBF;
+}
+
+
+
+/********************************Class Selector ************************/
+.coding1 {
+  background-color: white;
+  padding: 2px;
+}
+
+.coding2 {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/********************************ID Selector ************************/
+
+#mainmenu {
+
+text-align: end;
+margin: 20px;
+}
+
+#heading1 {
+  color: red;
+}
+
+#big {
+  font-size: 200px;
+}
+
+/* image from css 
+
+#picture-css {
+
+  width: max-content;
+  height: max-content;
+  background-image: url(../images/ajay_dokwal.jpg);
+}*/
+
+/********************************Tag Specific ID Selector ************************/
+
+
+img#image {
+
+  background-color: red;
+
+}
+
+/********************************  hovers   ************************/
+
+a:hover {
+
+  color:green;
+  
+}
+
+img:hover {
+  background-color: red;
+}
